@@ -7,8 +7,8 @@ IRSenderBitBang irSender(14);     // IR led on ESP8266 digital pin 14 / NODE D5
 HeatpumpIR *heatpumpIR = new MideaHeatpumpIR();
 
 // Update these with values suitable for your network.
-const char* ssid = "Pelegrina";
-const char* password = "jonasericlucianalorena";
+const char* ssid = "";
+const char* password = "";
 const char* mqtt_server = "192.168.31.8";
 
 WiFiClient espClient;
